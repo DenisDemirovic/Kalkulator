@@ -6,19 +6,16 @@ void kvadrat(float a) {
     printf("Površina kvadrata: %.2f\n", a * a);
     printf("Obim kvadrata: %.2f\n", 4 * a);
 }
-
 // Funkcija za izračunavanje površine i obima pravougaonika
 void pravougaonik(float a, float b) {
     printf("Površina pravougaonika: %.2f\n", a * b);
     printf("Obim pravougaonika: %.2f\n", 2 * (a + b));
 }
-
 // Funkcija za izračunavanje površine i obima kruga
 void krug(float r) {
     printf("Površina kruga: %.2f\n", M_PI * r * r);
     printf("Obim kruga: %.2f\n", 2 * M_PI * r);
 }
-
 // Funkcija za validaciju unosa (pozitivni brojevi)
 float validan_unos() {
     float broj;
@@ -31,10 +28,8 @@ float validan_unos() {
         }
     }
 }
-
 int main() {
     int izbor;
-
     do {
         // Meni programa
         printf("\n--- Kalkulator geometrijskih oblika ---\n");
@@ -72,6 +67,5 @@ int main() {
                 printf("Pogrešan izbor! Pokušajte ponovo.\n");
         }
     } while (izbor != 4);
-
     return 0;
 }
