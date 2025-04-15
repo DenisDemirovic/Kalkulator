@@ -1,6 +1,6 @@
-Kalkulator geometrijskih oblika (C jezik)
+Kalkulator geometrijskih tijela (C jezik)
 
-Ovaj projekat predstavlja jednostavan interaktivni kalkulator koji omogućava korisniku da izračuna  površinu i obim osnovnih geometrijskih oblika:
+Ovaj projekat predstavlja jednostavan interaktivni kalkulator koji omogućava korisniku da izračuna  površinu i obim osnovnih geometrijskih tijela:
  kvadrat, 
 pravougaonik i 
 krug. 
@@ -9,7 +9,7 @@ Program je napisan u programskom jeziku C.
 
 Funkcionalnosti
 
-- Meni sa opcijama za izbor oblika
+- Meni sa opcijama za izbor tijela
 - Validacija unosa (moguće je unijeti samo pozitivne brojeve)
 - Izračunavanje površine i obima za:
 - Kvadrat
